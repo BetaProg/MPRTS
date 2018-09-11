@@ -1,0 +1,108 @@
+.owner_details {
+	margin:2%;
+}
+.owner_image img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	border: 2px solid #ddd;
+}
+
+.owner_id_image img{
+	border-radius: 5%;
+	width: 300px;
+	height: 200px;
+	border: 2px solid #ddd;
+}
+
+.owner_details .owner_name h5{
+	font-weight: bold;
+}
+
+.owner_details .owner_mobile h6{
+	font-size: 18px;
+}
+
+.owner_details .owner_address h6{
+	font-size: 18px;
+}
+.owner_details .owner_location h6{
+	font-size: 18px;
+}
+.owner_details .owner_email h6{
+	font-size: 18px;
+	color:#3AAFE8;
+	cursor: pointer;
+}
+.owner_details .owner_email h6:hover{
+	text-decoration: underline;
+}
+.owner_assets_info {
+	background-color: #f2f2f2;
+	margin:2%;
+}
+.owner_assets_info .tab a {
+	color: #274552;
+}
+.owner_assets_info .tab .active{
+	color:#3AAFE8 !important;
+}
+.owner_assets_info .tab a:hover {
+	color:#3AAFE8 !important;	
+}
+.indicator {
+	background-color: #3AAFE8 !important;
+}
+
+.owner_properties_card {
+	/*margin-top:3%;*/
+	width:100%;
+}
+.owner_properties_card .s3 {
+	padding-left: 0px;
+	margin-right:0%;
+}
+.owner_properties_card .owner_property_image{
+	margin:2%;
+}
+.owner_properties_card .owner_property_image img {
+	max-width: 100%;
+	transition: width 2s;
+	transition: all 0.3s;
+}
+.owner_properties_card .owner_property_image img:hover {
+	/*width:110%;*/
+	transform: scale(1.1);
+}
+
+.property_card .s12 {
+	padding:0px;
+}
+.owner_property_address .s8 a{
+	font-size: 11px;
+}
+/*.owner_info .s8 h6 {
+	display: inline important;
+}*/
+.prop_type {
+	font-size: 13px;
+	font-weight: bolder;
+}
+.owners_table{
+	height: 40%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.record_details{
+	height: auto;
+	width: 100%;
+	float: right;
+	!border-top:1px solid #ddd;
+}
+.add_new_record{
+	height: auto;
+	width: 100%;
+	float: right;
+	!border-top:1px solid #ddd;	
+}

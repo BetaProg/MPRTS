@@ -1,0 +1,146 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px)
+{
+}
+
+@media only screen 
+  and (min-device-width: 737px) 
+  {
+		
+body {
+	
+}
+.head_bar {
+	z-index:997;
+}
+.main_title{
+	!z-index:998;
+}
+.welcome_div{
+	z-index:999;
+}
+.right_content {
+	margin-top: 5%;
+	padding: 0% 0.4% 0.2% 0.2%;	
+	overflow-y:auto;
+	height:91% !important;
+	z-index:999;
+}
+.right_content .title_bar{
+	margin-top: 2%;
+}
+.record_details {
+	/*padding-top: 1%;*/
+}
+
+.right_content, .title_bar, .sub_title_bar, .owner_content_actions, .record_details, .owners_table {
+	!box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
+}
+
+.add_record i{
+	color:#83C8A8;
+}
+.right_content2 table.striped>tbody>tr:nth-child(odd), .right_content1 table.striped>tbody>tr:nth-child(odd) {
+    	background-color: #fff !important;
+	}
+[title="Property Address"], [title="Asset Address"],  [title="Tenant Address"]{
+	background-color: #fff !important;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+.delete_property{
+	background-color: red !important;
+	color: #fff !important;
+	cursor: not-allowed;
+}
+.edit_button{
+	/*background-color: #3079F0 !important;*/
+	background-color: #2A7FB8 !important;
+	color: #fff !important;
+}
+.input-field {
+	margin-top: 5px;
+}
+
+
+
+
+/**********************************************/
+
+.right_content {
+    !background-color: #E4F1FE;
+	background-color: #ecf0f1;
+    padding: 0% 0.4% 0.2% 0.2% !important;
+}
+
+.right_content {
+	margin-left:20%;
+	margin-top:4% !important;
+	!position:fixed;
+	position: absolute;
+    !background-color: #E4F1FE;
+	background-color: #ecf0f1;
+    padding: 0% 0.4% 0.2% 0.2% !important;
+}
+.col.s2.show_all p {
+    margin-bottom: 0px;
+}
+.col.s3.search_applet input {
+    margin-bottom: 0px;
+}
+.title_bar{
+	!display:none !important;
+}
+ul#slide-out1 {
+    width: 18% !important;
+	height: 80% !important;
+    margin: 5% 1% 1% 1% !important;
+}
+.side-nav{
+	background-color: #fff !important;
+	color: #000 !important;
+}
+/* body .side-nav li a i, .side-nav li>a{
+	color: #000 !important;
+} */
+
+body .side-nav li a i, .side-nav li>a {
+    color: #16A085!important;
+	font-weight:900;
+}
+.z-depth-3, .side-nav, .z-depth-4{
+	box-shadow:none !important;
+}
+.owner_content_actions{
+	!background-color: #1BA39C;
+	background-color: #fff;
+}
+.add_record .material-icons{
+	color:#27ae60;
+}
+.col.s2.show_all label {
+    font-weight: bolder;
+    color: 2C3E50;
+}
+.welcome_div h5{
+	right: 5% !important;
+}
+body .nav_thread{
+		width:0px !important;
+	}
+	
+.search_applet input{
+	width: 360px;
+	height: 34px;
+	margin-top: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 2%;
+	border-top:1px solid #ddd;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+}
+  }

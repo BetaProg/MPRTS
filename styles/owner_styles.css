@@ -1,0 +1,93 @@
+body {
+	/*font-family: Raleway;*/
+	/*font-family: Open Sans,arial,tahoma,verdana,sans-serif;*/
+	font-family: calibri;
+}
+.owner_content_actions {
+	width: 100%;
+	height: 7%;
+	!background-color: #203C48;
+	!background-color: #16a085;
+	background-color: #70a1ff;
+	margin-top:2%;
+}
+.owner_content_actions #first_name{
+	margin-bottom: 0px;
+	border:1px solid #9E9E9E !important;
+	height: 30px;
+	margin-top: 3%;
+	padding-left: 5%;
+	color:#B2B7B9;
+}
+.applet_sort .input-field{
+	margin-top:0px;
+	color: #B2B7B9;
+	height: 30px;
+}
+.applet_sort .input-field .select-dropdown{
+	border-bottom: 0px;
+}
+.applet_sort .input-field .select-dropdown option {
+	width: 200px !important;
+}
+.applet_sort .input-field .caret {
+	color:#B2B7B9 !important;
+}
+
+.record_count .input-field{
+	margin-top:0px;
+	color: #B2B7B9;
+	height: 30px;
+}
+.record_count .input-field .select-dropdown{
+	border-bottom: 0px;
+}
+.record_count .input-field .select-dropdown option {
+	width: 250px !important;
+}
+.record_count .input-field .caret {
+	color:#B2B7B9 !important;
+}
+.owners_table{
+	width: 95%;
+}
+.owners_table table {
+	!margin: auto 0% auto 2%;
+}
+.owners_table table td{
+	font-size: 13px;
+}
+
+.drilldown {
+	cursor:pointer;
+}
+.drilldown:hover {
+	text-decoration: underline;
+}
+
+input:read-only{
+	cursor: not-allowed;
+}
+
+textarea:read-only{
+	cursor: not-allowed;
+}
+
+.sub_title_bar{
+	background-color: #203C48;
+	color: #f2f2f2;
+	height: 7%;
+}
+.sub_title_bar h5{
+	margin-top:0px;
+	padding-top: 1%;
+	margin-left: 5%;
+	font-size: 20px;
+}
+.sub_title_bar a{
+	/*color: #f2f2f2;*/
+	color: #ACB2B4;
+}
+td {
+	color: #000;
+}

@@ -1,0 +1,163 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px)
+{	
+	body {
+		background-image: url('../images/loginimages/dark_blue_gradient.jpg');
+	}
+	.row_input {
+		width: 100% !important;
+	}
+	.resp_logo_content{
+		color: fff;
+		font-size: 18px !important;
+	}
+	.login_content .sign_in_title{
+		font-size: 20px;
+	}
+	.top_ribbon {
+		height: 10%;
+		background-color: #f2f2f2;
+		width: 100%;
+		display: none;
+	}
+	.top_ribbon h5{
+		margin: 0% 4%;
+		padding-top: 15px;
+		text-align: left;
+		font-weight: bolder;
+		font-size: 30px;
+	}
+	.main_content {
+		height: 90%;
+		width: 96%;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-top: 1%;
+		/*margin-bottom: 5%;*/
+	}
+	.main_content .left_banner{
+		display: none;
+		width: 60%;
+		height: 100%;
+		float: left;
+		background-color: #336699;
+		color: #f2f2f2;
+	}
+	.left_banner .title_div{
+		margin-top: 10%;
+	}
+	.left_banner .content_div{
+		/*margin-left: 20%;*/
+		/*text-align: center;*/
+		margin-top: 15%;
+	}
+	.left_banner .content_div li{
+		font-size: 20px;
+		color: #ccccff;
+		margin-top: 5%;
+	}
+	.left_banner .content_div i{
+		margin-right: 5%;
+		font-size: 20px;
+	}
+	.login_right_content {
+		float: right;
+		/*width: 40%;*/
+		width: 100%;
+	}
+	.login_content {
+		margin: 5% 5% auto 10%;
+		/*text-align: center;*/
+		border-radius: 10px;
+		/*height: 80%;*/
+	}
+	.login_content h5{
+		margin-top: 20%;
+	}
+	.login_content form {
+		margin-top: 0%;
+		margin-bottom: 15%;
+	}
+	.register_div {
+		/*margin-top: 20%;*/
+	}
+}
+
+@media only screen and (min-device-width: 737px) 
+  {
+  	body {
+		background-image: url('../images/loginimages/dark_blue_gradient.jpg');
+	}
+	.resp_br {
+		display: none;
+	}
+	.resp_logo_content{
+		display: none;
+	}
+	.top_ribbon {
+		height: 10%;
+		background-color: #f2f2f2;
+		width: 100%;
+		display: none;
+	}
+	.top_ribbon h5{
+		margin: 0% 4%;
+		padding-top: 15px;
+		text-align: left;
+		font-weight: bolder;
+		font-size: 30px;
+	}
+	.main_content {
+		height: 80%;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 5%;
+		/*margin-bottom: 5%;*/
+	}
+	.main_content .left_banner{
+		width: 60%;
+		height: 100%;
+		float: left;
+		background-color: #336699;
+		color: #f2f2f2;
+	}
+	.left_banner .title_div{
+		margin-top: 10%;
+	}
+	.left_banner .content_div{
+		/*margin-left: 20%;*/
+		/*text-align: center;*/
+		margin-top: 15%;
+	}
+	.left_banner .content_div li{
+		font-size: 20px;
+		color: #ccccff;
+		margin-top: 5%;
+	}
+	.left_banner .content_div i{
+		margin-right: 5%;
+		font-size: 20px;
+	}
+	.login_right_content {
+		float: right;
+		width: 40%;
+	}
+	.login_content {
+		margin: 5% 5% auto 10%;
+		/*text-align: center;*/
+		border-radius: 10px;
+		/*height: 80%;*/
+	}
+	.login_content h5{
+		margin-top: 20%;
+	}
+	.login_content form {
+		margin-top: 0%;
+		margin-bottom: 15%;
+	}
+	.register_div {
+		/*margin-top: 20%;*/
+	}
+  }

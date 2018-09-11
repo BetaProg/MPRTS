@@ -1,0 +1,110 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px)
+{
+.head_bar {
+    width: 100%;
+    height: 7%;
+	min-height:40px;
+    !background-color: #EC644B;
+	background-color: #2980b9;
+	position:fixed;
+}
+.right_content{
+	padding:6% 0px 0px 0px !important;
+}
+.right_content .title_bar {
+	background-color: #34495e;
+    margin-top: 0% !important;
+}
+.title_bar h5 {
+	!display:none;
+    margin-top: 0px;
+    padding-top: 1% !important;
+    margin-left: 5%;
+    margin-bottom: 0px !important;
+    font-size: 20px;
+    padding-bottom: 1%;
+}
+.right_content .title_bar {
+    !height: 6% !important;
+    height: 0% !important;
+	margin-top:0% !important;
+}
+.logo_div {
+    display: none !important;
+}
+h5.main_title {
+    margin: 0px;
+    padding: 1% 0%;
+}
+	.title_bar{
+		margin-top: 0%;
+	}
+}
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-device-width: 737px)
+{
+	
+	.head_bar {
+    width: 100%;
+    height: 8%;
+    !background-color: #EC644B;
+	background-color: #34495e;
+	position:fixed;
+}
+.right_content{
+	padding:0px !important;
+}
+.right_content .title_bar {
+    margin-top: 0% !important;
+}
+.title_bar h5 {
+    margin-top: 0px;
+    padding-top: 1% !important;
+    margin-left: 5%;
+    margin-bottom: 0px !important;
+    font-size: 20px;
+    padding-bottom: 1%;
+}
+.right_content .title_bar {
+    height: 6% !important;
+	margin-top:1% !important;
+}
+.logo_div {
+    display: none !important;
+}
+h5.main_title {
+    margin: 0px;
+    padding: 1% 0%;
+}
+
+
+.left_content {
+    width: 20%;
+    height: 100%;
+    /* background-color: #274552; */
+	/* background-color:#ECECEC !important; */
+	background-color:#ECF0F1 !important;
+    float: left;
+}
+.right_content{
+	height: 100% !important;
+	width:80% !important;
+	float:left !important;
+}
+.title_bar{
+		margin-top: 4%;
+	}
+
+}
+.notes_content .tab a{
+		color: #000 !important;
+	}
+	.notes_content .tab .active{
+		color: #3AAFE8 !important
+	}

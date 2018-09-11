@@ -1,0 +1,807 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px)
+{
+	/* latin */
+@font-face {
+  font-family: 'Calibri';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Calibri'), url(https://fonts.gstatic.com/l/font?kit=YH3ek_qpdaY7ILI-bfzlYQ&skey=a1029226f80653a8&v=v8) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+	.left_content{
+		display: none;
+	}
+	.nav_thread {
+	        /*background-color: grey !important;*/
+	        /*background-color: #000;*/
+	        /*background-color: #fff;*/
+			background-color: #e74c3c;
+	        height: 49px;
+	        position: absolute !important;
+			position: fixed;
+			text-align: center;
+	        width: 100%;
+	        z-index: 3;
+	        border:1px solid #ddd;
+	}
+	.z-depth-4, .z-depth-3 {
+		box-shadow: none;
+	}
+	.right_content{
+		width: 100%;
+	}
+	.title_bar{
+		box-shadow: none;
+		height: auto !important;
+		margin-top: 50px !important;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		text-align: center;
+	}
+	.title_bar h5{
+		font-size: 15px !important;
+		margin-bottom: 0px;
+		padding-top: 2%;
+	}
+
+	.owner_content_actions{
+		font-size: 10px;
+		height: auto;
+		box-shadow: none;
+	}
+	.owner_content_actions .row .s2{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.owner_content_actions .row .s3{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.record_count, .applet_sort, .show_all{
+		display: none;
+	}
+	.search_applet{
+		color: #fff;
+		text-align: center;
+		width: 75% !important;
+		padding-left: 5% !important;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.search_applet input{
+		margin-bottom: 2px;
+		padding-left: 2%;
+	}
+	
+	.add_record_class{
+		float: right !important;
+	}
+	.add_record .material-icons{
+		height: 30px !important;
+	}
+	.owners_table{
+		height: auto;
+	}
+	.owners_table{
+		overflow-x: auto;
+	}
+	.owners_table th{
+		font-size: 10px !important;
+		padding: 2px;
+	}
+	.owners_table td{
+		font-size: 12px !important;
+		padding: 2px;
+	}
+	.table_content {
+		display: none;
+	}
+	.building_image_col{
+		/*padding-left: 0px !important;*/
+		/*padding-right: 0px !important;*/
+	}
+	.building_image_col img{
+		width:60px;
+		height: 60px;
+		border-radius: 50px;
+		margin-top: 25% !important;
+	}
+	.resp_building_content, .resp_owners_content{
+		margin-top: 2%;
+	}
+	.owners_table .thead_main{
+		display: none !important;
+	}
+	.building_title{
+		font-weight: bolder;
+	}
+	.building_id a{
+		color: #17A086 !important;
+	}
+	.building_list_row, .owners_list_row{
+		padding-top: 2%;
+	}
+	.building_units{
+		font-size: 18px;
+		/*margin: 4% !important;*/
+		font-weight: bolder;
+	}
+	.building_units_label{
+		margin-top: 2%;
+	}
+	.building_units .chip{
+		width: 50px;
+		height: 25px;
+		background-color: #F07F57 !important;
+		color: #fff;
+	}
+	.building_content_col{
+		padding-left: 8% !important;
+	}
+	.location_icon, .phone_icon{
+		font-size: 10px !important;
+	}
+	.building_phno{
+		font-family: sans-serif;
+	}
+
+
+	/********************************      Sub Title Bar  Starts      **************************************/
+
+	.main_sub_title_bar{
+		display: none;
+	}
+	.resp_sub_title_bar{
+		width: 100%;
+		background-color: #25414E;
+		color: #f2f2f2;
+		height: 49px;
+		/*text-align: center;*/
+		text-align: left;
+	}
+
+	.resp_sub_title_bar .content_name{
+		font-size: 20px;
+		margin: 0px !important;
+		padding-top: 2%;
+	}
+	.resp_sub_title_bar .pagination{
+		color: grey;
+		font-size: 15px;
+		width: auto;
+		margin: 6% auto 2% 2%;
+		text-align: left;
+	}
+	.resp_building_name, .resp_owner_name, .resp_asset_no, .resp_tenant_name{
+		color: #000;
+		float: left;
+		/*font-size: 20px;*/
+		font-size: 15px;
+		margin: 3% auto auto 2%;
+	}
+	.resp_owner_image img, .resp_asset_image img, .resp_tenant_image img{
+		width: 100% !important;
+		height: 300px !important;
+		display: block;
+		/*margin-left: 5%;*/
+		/*margin-right: 5%;*/
+		/*box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);*/
+	}
+	.resp_sub_title_bar .sub_title_bar{
+		font-family: arial !important;
+		margin:5%;
+	}
+
+	.resp_sub_title_bar .resp_building_address_content, .resp_sub_title_bar .resp_owner_address_content, .resp_sub_title_bar .resp_asset_address_content,
+	 .resp_sub_title_bar .resp_tenant_address_content{
+		/*margin-top: 2%;*/
+	}
+
+	.resp_sub_title_bar  .resp_building_address_content .resp_location_icon .location_icon,
+	.resp_sub_title_bar  .resp_owner_address_content .resp_location_icon .location_icon, 
+	.resp_sub_title_bar  .resp_asset_address_content .resp_location_icon .location_icon,
+	.resp_sub_title_bar  .resp_tenant_address_content .resp_location_icon .location_icon {
+		color: #999;
+		font-size: 20px !important;
+		padding-top: 45%;
+	}
+
+	.resp_sub_title_bar  .resp_building_address_content .resp_location_icon .phone_android,
+	.resp_sub_title_bar  .resp_building_address_content .resp_location_icon .mail_outline,
+	.resp_sub_title_bar  .resp_owner_address_content .resp_location_icon .phone_android,
+	.resp_sub_title_bar  .resp_owner_address_content .resp_location_icon .mail_outline,
+	.resp_sub_title_bar  .resp_tenant_address_content .resp_location_icon .mail_outline,
+	.resp_sub_title_bar  .resp_owner_address_content .resp_location_icon .person_outline, 
+	.resp_sub_title_bar  .resp_asset_address_content .resp_location_icon .phone_android,
+	.resp_sub_title_bar  .resp_tenant_address_content .resp_location_icon .phone_android,
+	.resp_sub_title_bar  .resp_asset_address_content .resp_location_icon .mail_outline,
+	.resp_sub_title_bar  .resp_owner_address_content .resp_location_icon .location_city{
+		color: #999;
+		font-size: 20px !important;
+		padding-top: 35%;
+	}
+
+	.resp_sub_title_bar  .resp_building_address_content .s10, 
+	.resp_sub_title_bar  .resp_owner_address_content .s10,
+	.resp_sub_title_bar  .resp_asset_address_content .s10,
+	.resp_sub_title_bar  .resp_tenant_address_content .s10 {
+		color: #000;
+		text-align: left;
+	}
+	.resp_sub_title_bar  .resp_building_address_content .s10 h5,
+	.resp_sub_title_bar  .resp_owner_address_content .s10 h5,
+	.resp_sub_title_bar  .resp_asset_address_content .s10 h5,
+	.resp_sub_title_bar  .resp_tenant_address_content .s10 h5 {
+		/*font-size: 15px;*/
+		font-size: 12px;
+	}
+	.details_container{
+
+	}
+	.resp_sub_view_container .tabs .tab a{
+		color: #3079F0 !important;
+	}
+
+	.border_it{
+		background-color: #fff;
+    	margin: 8px 0;
+    	padding: 16px;
+	}
+
+	.owner_details {
+		display: none;
+	}
+
+
+	/********************************      Sub Title Bar  Ends        **************************************/
+
+	/******************************** Sub View Starts ****************************************/
+		.resp_asset_content{
+			margin: 1% 1% 5% 1%;
+		}
+
+		.resp_asset_content .asset_list_row{
+			/*height: 60px;*/
+			height: auto;
+			margin: 5%;
+		}
+		.resp_asset_content .asset_list_row .asset_no_col{
+			background-color: orange;
+			border-radius: 40px;
+			padding-top: 3%;
+			/*padding-bottom: 4%;*/
+			margin-top:4%;
+			margin-bottom: 4%;
+			height: 40px;
+			width: 40px;
+		}
+		.resp_asset_content .asset_list_row .asset_owner_col{
+			color: #000;
+			font-size: 15px;
+		}
+		.resp_asset_content .asset_list_row .asset_owner_col h5{
+			float: left;
+			font-size: 15px;
+			margin-bottom: 0px;
+		}
+		.resp_asset_content .asset_list_row .asset_id_col{
+			color: #000;
+			/*margin-top: 3%;*/
+		}
+		.resp_asset_content .asset_list_row .asset_rooms_col{
+			/*background-color: #EA9842;*/
+			border-radius: 5px;
+			border:2px solid #EA9842;
+			color: #EA9842;
+			/*height: 80%;*/
+			margin-top: 2%;
+			/*width: 25% !important;*/
+		}
+		.resp_asset_content .asset_list_row .asset_rooms_col h5{
+			margin-top: 4px;
+			margin-bottom: 0px;
+			font-size: 18px;
+		}
+		.resp_asset_content .asset_list_row .asset_id_col h5{
+			float: left;
+			font-size: 15px;
+		}
+		table.striped>tbody>tr:nth-child(odd), table.striped>tbody>tr:nth-child(odd) {
+    		background-color: #fff !important;
+		}
+		table.striped>tbody>tr:nth-child(even), table.striped>tbody>tr:nth-child(even) {
+    		background-color: #f2f2f2 !important;
+		}
+		/******************************** Resp Edit Content Starts **************************/
+		.resp_edit_tite{
+			height: 49px;
+		}
+		.edit_content .row .col.s12{
+			height: auto !important;
+			/*border: 1px solid #000;*/
+			box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+		}
+		.edit_content td{
+			padding: 10px 5px !important;
+			/*width: 99px;*/
+		}
+		.main_edit_title{
+			display: none;
+		}
+		.save_building, .cancel_edit_building {
+			background-color: #fff;
+			box-shadow: none;
+			color: #3079F0 !important;
+		}
+		.back_button{
+			background-color: #fff;
+			box-shadow: none;
+			color: #3079F0 !important;
+		}
+
+		.nav_thread .side-nav{
+			height: 100%;
+			margin-top: 0%;
+			width: 70% !important;
+		}
+		.side-nav li>a{
+			/*color: #fff;*/
+			color: #000;
+			padding-top: 2.5%;
+			padding-bottom: 2.5%;
+			padding-left: 10px !important;
+			padding-right: 0px !important;
+			text-align: justify;
+		}
+		.side-nav li>a i{
+			margin-left: 0px;
+			margin-right: 5% !important;
+		}
+		#sidenav-overlay{
+			/*opacity: 0 !important;*/
+			position: static;
+		}
+		[title="Logout"] i{
+			color:#fff;
+		}
+		.button-collapse{
+			/*background-color: blue;*/
+			/*border-radius: 20px;*/
+			/*color: #fff;
+			color: #999;*/
+			color:#fff;
+			float: left;
+			margin: 0% auto auto 4%;
+			width: 30px;
+		}
+		.button-collapse i{
+			width: auto;
+			font-weight: lighter;
+		}
+		.content_name{
+			font-size: 15px;
+		}
+		tr td, tr th {
+			padding: 15px 5px !important;
+		}
+
+
+		/******************************** Resp Edit Content Ends **************************/
+		/******************************** Resp Owner Content Starts ***********************/
+			.main_head{
+				display: none;
+			}
+			.resp_owners_table{
+				display: block;
+				height: 40%;
+				overflow-y: auto;
+			}
+
+			.resp_owners_table table{
+				font-size: 12px !important;
+			}
+
+			.add_owner_form, .add_expense_form {
+				border:1px solid #ddd;border-radius:5px;height:auto;padding:1%;margin: 2% auto auto 2%;
+			}
+
+
+		/******************************** Resp Owner Content Ends *************************/
+
+		/******************************** Resp Asset Content Starts ***********************/
+
+
+			.resp_head{
+
+			}
+
+			.table_asset_building, .table_asset_location, .table_asset_address{
+				display: none;
+			}
+
+
+			.add_asset .s12, .add_tenant .main_cat{
+				border:1px solid #ddd;border-radius:5px;height:auto;padding:1%;
+				margin-top: 2%;
+			}
+			.add_asset .s12 label, .add_asset .s12 input, .add_tenant .s12 label, .add_payments .s12 input{
+				margin-left:5%;
+				margin-right:5%;
+				width: 90% !important;
+			}
+
+			.pmt_download_btn{
+				margin-top: 1%;
+			}
+			#cmd{
+				cursor: pointer;background-color: #fff;color:#25414E;width: min-content;padding:5%;border-radius: 30px;
+			}
+			#cmd i{
+				font-size:30px;
+			}
+			.pmt_mprts_title h5{
+				font-size: 25px;font-weight: bolder;margin-top:0px;margin-left:10%;
+			}
+			.payment_main_content .s12{
+				border:1px solid #ddd;
+				height:auto;
+			}
+			.logo_div {
+				background-color:#e74c3c;
+				height:49px;
+			}
+			.brand_name a{
+				color:#fff;
+				font-weight:bolder;
+				margin-left:1% !important;
+				padding-left:10%;
+			}
+			.logo_content_row {
+				margin-top: 2%;
+				margin-bottom: 2% !important;
+			}
+			.logo_content_row .s12 {
+				/*margin-left: 20% !important;*/
+				margin-left: 0% !important;
+			}
+			.logo_content_row .pmt_receipt_div{
+				/*display: none;*/
+			}
+			.pmt_download_btn{
+				margin-top: 5%;
+			}
+			.payment_title_bar .s10 h5{
+				font-size: 15px;
+			}
+			.payment_details_div{
+				overflow-x: hidden !important;
+			}
+			.logo_div img{
+				width: 35px;
+				position: absolute;
+				left:5%;
+				!top:2%;
+				top:1%;
+			}
+			.instructions_container{
+				display: none !important;
+			}
+			.welcome_div h5{
+				position: fixed;
+				top:5;
+				right:32%;
+				font-size: 18px;
+				color: #fff;
+				/*color: #333;*/
+			}
+			.side-nav li a i {
+				margin-left: 1% !important;
+				/*color:#ddd !important;*/
+				color:#999 !important;
+				font-size: 20px;
+			}
+
+		/******************************** Resp Asset Content Ends ************************/
+
+
+		/******************************** Sub View Ends   ****************************************/
+
+		.owner_close {
+			display: none;
+		}
+		#modal2, #modal3{
+			/*margin-top:20%;*/
+		}
+		#toast-container{
+			height: 10% !important;
+		}
+
+		.add_content_main_div{
+			width:100%;
+			/*margin-left: 16%;*/
+		}
+		.add_content_main_div .title_bar{
+			background-color: #25414E;height: 49px;color: #f2f2f2;
+		}
+		.add_content_main_div .main_cat{
+			border:1px solid #ddd;
+			border-radius:5px;
+			height:auto;
+			padding-bottom: 5%;
+			/*padding:1%;*/
+		}
+
+		.user_image{
+			display: none;
+		}
+		.user_details .s12 .s3{
+			/*text-align: right !important;*/
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+		}
+		.user_details .s12 .s9{
+			/*text-align: right !important;*/
+		}
+		[title="Properties List"] {
+			padding-right: 1px !important;
+			padding-bottom: 1px !important;
+			padding-top: 0px !important;
+			padding-bottom: 0px !important;
+		}
+		.resp_float{
+			display: none;
+		}
+		.modal-content{
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+		}
+		.modal-footer{
+			width: 100% !important;
+		}
+		.modal-action{
+			float:left;
+		}
+		.main_footer{
+			display: none;
+		}
+		.assets_spl_table{
+			height: 40%;
+		}
+		.file-field input[type=file]{
+			/*width: auto;*/
+		}
+		.cards_row .s6{
+			height: auto;
+			margin-bottom: 0%;
+		}
+		
+		.cards_row .s6 .card {
+			margin-bottom: 2px;
+		}
+		
+		.cards_row .s6 .card-content{
+			height: auto;
+			padding: 10% 1% 5% 5%;
+		}
+		
+		.cards_row .s6 .card-content i.right{
+			margin-left:5px;
+		}
+		.cards_row .s6 .card-reveal{
+			padding:6px;
+		}
+		.cards_row .s6 .card-title{
+			font-size: 20px !important;
+		}
+		.card .card-image img {
+			width: 50%;
+			left:25%;
+			top:10;
+		}
+		.resp {
+			display: block;
+		}
+		.desk{
+			display: none;
+		}
+
+/******************************************************************************************************************************************************************************/
+/******************************************************************************************************************************************************************************/
+/******************************************************************************************************************************************************************************/
+/******************************************************************************************************************************************************************************/
+/******************************************************************************************************************************************************************************/
+/******************************************************************************************************************************************************************************/
+/******************************************************************************************************************************************************************************/
+/******************************************************************************************************************************************************************************/
+/******************************************************************************************************************************************************************************/
+/******************************************************************************************************************************************************************************/
+
+}
+
+@media only screen 
+  and (min-device-width: 737px) 
+  {
+  	.resp_content{
+  		display: none;
+  	}
+  	.resp_sub_title_bar{
+  		display: none;
+  	}
+  	.resp_sub_view_container{
+  		display: none;
+  	}
+  	.edit_content .row .col.m4{
+			height: 60% !important;
+	}
+	.resp_edit_tite{
+		display: none;
+	}
+	#slide-out1{
+		width: 20% !important;
+		margin-top: 6%;
+		overflow:scroll !important;
+	}
+	/*#slide-out1::-webkit-scrollbar { 
+    	display: none !important; 
+	}
+	#slide-out1:hover { 
+    	overflow-y: scroll !important;
+	}*/
+
+	#slide-out1 {
+		overflow:hidden !important;
+		/*height:whatever px;*/
+	}
+	#slide-out1:hover {
+		overflow-y:auto !important; 
+	}
+
+	.side-nav li>a{
+		/*display: inline;*/
+		color: #fff;
+		padding-left: 0px;
+		text-align: justify;
+		padding-right: 0px;
+	}
+	.side-nav li>a i{
+		margin-right: 10% !important;
+		/*margin-left: 2% !important;*/
+	}
+	.button-collapse{
+		display: none;
+	}
+	#slide-out1 .logo_div{
+		display: none;
+	}
+	table.striped>tbody>tr:nth-child(odd), table.striped>tbody>tr:nth-child(odd) {
+    		background-color: #fff !important;
+	}
+	table.striped>tbody>tr:nth-child(even), table.striped>tbody>tr:nth-child(even) {
+    		background-color: #f2f2f2 !important;
+	}
+	.nav_thread {
+	        /*background-color: grey !important;*/
+	        background-color: #000;
+	        /*background-color: #2A7FB8 !important;*/
+	        height: 45px;
+			position: fixed;
+			text-align: center;
+	        width: 100%;
+	        z-index: 3;
+	}
+	[title='Cancel'] {
+		background-color: #DD4D42 !important;
+		color: #fff !important;
+	}
+	[title='Save record'], [title='Save']{
+		background-color: #5BBD84 !important;
+		color: #fff !important;
+	}
+	[title='Delete']{
+		background-color: #F32613 !important;
+		color: #fff !important;
+	}
+
+	.resp_owners_table{
+		display: none;				
+	}
+	.add_owner_form, .add_expense_form {
+		border:1px solid #ddd;border-radius:5px;height:auto;padding:1%;margin: 2% 25% auto 25%;width: auto;
+	}
+	.resp_head{
+		display: none;
+	}
+	/*.add_asset .s12, .add_tenant .s12, .add_payments .main_cat{*/
+		.add_asset .s12, .add_tenant .main_cat {
+			margin-top: 0.5%;
+			height: 70%;
+		}
+		.add_payments .main_cat{
+		/*border:1px solid #ddd;*/
+		border-radius:5px;
+		height:70%;
+		padding:1%;
+	}
+	.pmt_download_btn{
+		margin-top: 1%;
+	}
+	#cmd{
+		cursor: pointer;background-color: #fff;color:#25414E;width: min-content;padding:5%;border-radius: 30px;
+	}
+	#cmd i{
+		font-size:30px;
+	}
+	.pmt_mprts_title h5{
+		font-size: 25px;font-weight: bolder;margin-top:0px;margin-left:10%;
+	}
+	.payment_main_content .l4{
+		border:1px solid #ddd;width:33%;height:45%;
+	}
+	.logo_content_row .s12{
+		margin-top: 1%;
+	}
+	.logo_div img{
+		width: 70px;position: absolute;left:1%;top:1%;
+	}
+	.welcome_div h5{
+		position: fixed;top:0;right:35%;font-size: 20px;color: #fff;
+	}
+	.side-nav li a i {
+		margin-left: 10% !important;
+		color:#ddd !important;
+		font-size: 20px;
+	}
+
+	/******************************************************************************************************************************************************************************/
+
+		.owner_close_resp {
+			display: none;
+		}
+
+	/******************************************************************************************************************************************************************************/
+	.add_content_main_div{
+		width:73.5%;
+		margin-left: 16%;
+	}
+	.add_content_main_div .title_bar{
+		background-color: #25414E;height: 49px;color: #f2f2f2;
+	}
+	.add_content_main_div .main_cat{
+		border:1px solid #ddd;border-radius:5px;height:70%;padding:1%;
+	}
+	.resp_float{
+		display: none;
+	}
+	.resp_footer{
+		display: none;
+	}
+	.file-field input[type=file]{
+		/*width: auto;*/
+	}
+
+	.row .col.l6{
+		/*width: auto;	*/
+	}
+	.cards_row .s6{
+		height: 50%;
+		margin-bottom: 5%;
+	}
+	.cards_row .s6 .card-content{
+		/*height: auto;*/
+	}
+	.cards_row .s6 .card-title{
+		/*font-size: 20px !important;*/
+	}
+	.resp{
+		display: none;
+	}
+	.desk{
+		display: block;
+	}
+	.record_count, .applet_sort{
+		display: none;
+	}
+  }

@@ -1,0 +1,62 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 737px)
+{	
+	.row input, .row .input-field .select-wrapper, .file-field{
+		width:95%;
+	}
+	 .row .input-field{
+		margin-top: 0px !important;
+	}
+	.top_ribbon {
+		height: 10%;
+		background-color: #f2f2f2;
+		width: 100%;
+		display: none;
+	}
+	.top_ribbon h5{
+		margin: 0% 4%;
+		padding-top: 15px;
+		text-align: left;
+		font-weight: bolder;
+		font-size: 30px;
+	}
+	.form_content{
+		margin-top: 0%;height: auto;
+	}
+	.form_content .s7{
+		padding-left: 0px !important;
+	}
+	.register_title {
+		font-size: 15px;font-weight: bolder;
+	}
+}
+
+@media only screen and (min-device-width: 737px) 
+  {
+  	.register_title {
+		font-size: 15px;font-weight: bolder;margin-top: 5%;
+	}
+	.row input, .row .input-field .select-wrapper, .file-field{
+		width:90%;
+	}
+	 .row .input-field{
+		margin-top: 0px !important;
+	}
+	.form_content{
+		margin-top: 10%;height: auto;
+	}
+	.top_ribbon {
+		height: 10%;
+		background-color: #f2f2f2;
+		width: 100%;
+		display: none;
+	}
+	.top_ribbon h5{
+		margin: 0% 4%;
+		padding-top: 15px;
+		text-align: left;
+		font-weight: bolder;
+		font-size: 30px;
+	}  	
+  }

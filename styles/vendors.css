@@ -1,0 +1,308 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px)
+{
+	.vendor_add_btn span{
+		display:none !important;
+	}
+	.vendor_add_btn{
+		background-color:green !important;
+		color:#fff !important;
+		margin-left:5%;
+		margin-top:0%;
+	}
+	.vendor_add_btn{
+		padding-left:10px !important;
+		padding-right:10px !important;
+	}
+	.vendor_add_btn i{
+		margin-right:0px !important;
+	}
+	.modal-content{
+		height: 100% !important;
+		padding-top:5px !important;
+	}
+	.vendor_cards {
+		!box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3) !important;
+	}
+	.vendor_cards img{
+		box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3) !important;
+		border-radius: 50%;
+		width:50px;
+	}
+	.modal-content h5{
+		margin-top:0px !important;
+		background-color:#2980B9;
+		color:#fff;
+		font-size:20px;
+		padding:4%;
+	}
+	#vendors_close{
+		margin-top:5px;
+		color:#fff;
+		padding-right:5px;
+	}
+	.modal.modal-fixed-footer{
+		!height:100% !important;
+	}
+	.modal.modal-fixed-footer .modal-content{
+		overflow-y:visible !important;
+	}
+	
+	.vendor_records{
+		!padding:2% 5% 5% 2% !important;
+		padding:2% 2% 5% 2% !important;
+	}
+	.edit_expense_details{
+		height:40%;
+		display:none;
+		background-color:red;
+		width:100%;
+	}
+	
+	
+	
+	
+	.upper_row .vendor_records{
+		padding:0% 2% 0% 0% !important;
+	}
+	.vendor_cards img{
+		width:40px !important;
+	}
+	.vendor_cards p{
+		font-size:10px;
+	}
+	.vendor_cards {
+		!box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3) !important;
+	}
+	
+	.vndr_icon{
+		margin: 0% auto auto 10%;
+	}
+	.s12 p{
+		margin-top:0%;
+		font-weight:bolder;
+	}
+	body table.striped>tbody>tr:nth-child(odd) {
+		background-color: #f2f2f2 !important;
+	}
+	body table.striped>tbody>tr:nth-child(even) {
+		background-color: #fff !important;
+	}
+	table tr {
+		height:auto;
+	}
+	
+	
+	/* Image Buttons starts*/
+	div.show-image {
+		position: relative;
+		float:left;
+		margin:5px 25% auto 30%;
+	}
+	.show-image img {
+		width:60px;
+	}
+	div.show-image:hover img{
+		!opacity:0.5;
+	}
+	div.show-image:hover input {
+		display: block;
+	}
+	div.show-image input {
+		position:absolute;
+		display:none;
+	}
+	.update {
+		!top:0;
+		!left:20%;
+		float: left;
+		background-color: #f2f2f2;
+		color:#000;
+		margin-top: 1%;
+		margin-left: 38%;
+		margin-right:2%;
+		border-radius: 50%;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.delete {
+		!top:0;
+		!left:79%;
+		float: left;
+		background-color: #f2f2f2;
+		color:#000;
+		margin-top: 1%;
+		margin-left: auto;
+		!margin-right:20%;
+		border-radius: 50%;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.all_prty_vndrs {
+		display: none;
+	}
+	/* Image Buttons ends */
+	.show_all_vndrs{
+		position: absolute;
+		top: 10%;
+		right: 2%;
+	}
+	.show_all_vndrs i{
+		font-size:40px;
+		cursor: pointer;
+	}
+	.upper_row p{
+		margin-top: 5px !important;
+		margin-bottom: 5px !important;
+	}
+	
+	
+	
+	
+	
+}
+
+/******************************************************************************************************************************************************************************/
+/******************************************************************************************************************************************************************************/
+/******************************************************************************************************************************************************************************/
+/******************************************************************************************************************************************************************************/
+
+@media only screen 
+  and (min-device-width: 737px) 
+  {
+	.vendor_add_btn{
+		background-color:green !important;
+		color:#fff !important;
+		margin-left:5%;
+	}
+	.modal-content{
+		height: 100% !important;
+		padding-top:5px !important;
+	}
+	.vendor_cards {
+		!box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3) !important;
+	}
+	.vendor_cards img{
+		box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3) !important;
+		border-radius: 50%;
+	}
+	.modal-content h5{
+		margin-top:0px !important;
+	}
+	.modal.modal-fixed-footer{
+		!height:100% !important;
+	}
+	.modal.modal-fixed-footer .modal-content{
+		overflow-y:visible !important;
+	}
+	
+	.vendor_records{
+		padding:2% 5% 5% 2% !important;
+	}
+	.edit_expense_details{
+		height:40%;
+		display:none;
+		background-color:red;
+		width:100%;
+	}  
+	
+	.upper_row .vendor_records{
+		padding:0% 2% 0% 0% !important;
+	}
+	.vendor_cards img{
+		width:40px !important;
+	}
+	.vendor_cards p{
+		font-size:10px;
+	}
+	.vendor_cards {
+		box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3) !important;
+	}
+	
+	.vndr_icon{
+		margin: 0% auto auto 10%;
+	}
+	.s12 p{
+		margin-top:0%;
+		font-weight:bolder;
+	}
+	body table.striped>tbody>tr:nth-child(odd) {
+		background-color: #f2f2f2 !important;
+	}
+	body table.striped>tbody>tr:nth-child(even) {
+		background-color: #fff !important;
+	}
+	
+	
+	/* Image Buttons starts*/
+	div.show-image {
+		position: relative;
+		float:left;
+		margin:5px;
+	}
+	div.show-image:hover img{
+		!opacity:0.5;
+	}
+	div.show-image:hover input {
+		display: block;
+	}
+	div.show-image input {
+		position:absolute;
+		display:none;
+	}
+	.update {
+		!top:0;
+		!left:20%;
+		float: left;
+		background-color: #f2f2f2;
+		color:#000;
+		margin-top: 1%;
+		margin-left: 16%;
+		margin-right:10%;
+		border-radius: 50%;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.delete {
+		!top:0;
+		!left:79%;
+		float: left;
+		background-color: #f2f2f2;
+		color:#000;
+		margin-top: 1%;
+		margin-left: auto;
+		border-radius: 50%;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.all_prty_vndrs {
+		display: none;
+	}
+	/* Image Buttons ends */
+	.show_all_vndrs{
+		position: absolute;
+		top: 3%;
+		right: 45%;
+	}
+	.show_all_vndrs i{
+		font-size:40px;
+		cursor: pointer;
+	}
+	.upper_row p{
+		margin-top: 5px !important;
+		margin-bottom: 5px !important;
+	}
+	#vendors_close{
+		margin-top:5px;
+		color:#fff;
+	}
+	.modal-content h5{
+		margin-top:0px !important;
+		background-color:#2980B9;
+		color:#fff !important;
+		font-size:20px;
+		padding:4%;
+	}
+  }
+
